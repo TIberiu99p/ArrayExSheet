@@ -12,7 +12,7 @@ namespace Arrays.Test
         {
             // Arrange
             ArraysExercises arraysExercises = new ArraysExercises();
-            object[] arr = { 1, 2, 3, 4, 5, 1.5f, 2.5f };
+            object[] arr = { 1, 2, 3, 4, 5, 1.5f, 2.5f , "arr", "Ben", "32", [1,2,3,4]};
 
             // Act
             int result = arraysExercises.GetSumValOfArray(arr);
